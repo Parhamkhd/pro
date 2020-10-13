@@ -1,0 +1,151 @@
+@font-face {
+    font-family: iranyekan;
+    src: url("../fonts/IRANYekanFaNum.ttf");
+  }
+  @font-face {
+    font-family: iransans;
+    src: url("../fonts/IRANSansWeb\(FaNum\).ttf");
+  }
+  @font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir.ttf");
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: vazir;
+  }
+
+nav{
+    border-bottom: 1px solid rgb(240, 240, 240);
+    -webkit-box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+    box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+  }
+.top-nav{
+    height: 80px;
+}
+.logo{
+    padding-left: 50px !important;
+}
+
+
+ul{
+    margin: 0 !important;
+}
+
+  .list-item{
+      padding: 0px 20px;
+      margin: 0 !important;
+  }
+.list-item a{
+    color: #6D6F71;
+}
+.list-item a:hover{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+.home{
+    color: black !important;
+    border-bottom:4px solid #B69750;
+}
+.login-btn{
+    padding: 0px 50px !important;
+}
+
+.login{
+    color: white;
+    background-color: #B69750;
+    border: none;
+    padding: 5px 25px;
+}
+
+.main-content{
+    position: relative;
+}
+.main-content{
+    margin: 0 auto;
+}
+.main-content-text{
+    padding-bottom: 40px;
+}
+.main-content-image{
+    margin-top: 40px;
+    background: url("../images/Group\ 21.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1000px;
+    height: 500px;
+}
+.main-hero-text{
+    color: white;
+    font-family: iranyekan;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #000000;
+}
+.main-hero-text-eng{
+    color: white;
+    font-family: iranyekan;
+    font-size: 60px;
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 5px #000000;
+
+
+}
+h2{
+    color: white;
+}
+.more{
+    color: white;
+    padding: 20px 50px;
+    position: absolute;
+    top: 480px;
+    background: #B69750;
+    font-size: 25px;
+}
+.imagess{
+    z-index: -1;
+    position: absolute;
+    width: 150px;
+    height: 320px;
+    right: 920px;
+    bottom: -185px;
+    background: url("../images/Repeat\ Grid\ 1.svg");
+}
+
+.companies{
+    position: relative;
+    margin-top: 120px;
+    background: #e2e1e1;
+    z-index: -2;
+    padding-bottom: 50px;
+}
+.company{
+    height: 150px;
+    background: white;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+    box-shadow: 0px -2px 11px -2px rgba(0,0,0,0.19);
+}
+.aboutus{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.rightside{
+    position: relative;
+}
+
+.imgss{
+    position: absolute;
+    right: -120px;
+}
+
+.imgss img{
+}
